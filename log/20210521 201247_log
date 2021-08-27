@@ -1,0 +1,3 @@
+2021052120:13:00 index_page.py INFO 正在搜索商品
+2021052120:13:12 verify.py INFO 正在断言...
+2021052120:13:12 verify.py INFO 断言成功，测试通过

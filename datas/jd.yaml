@@ -1,0 +1,14 @@
+index:
+  search_text_css: "#key"
+  search_button_xpath: "/html/body/div[1]/div[4]/div/div[2]/div/div[2]/button/i"
+  search_text: "自行车"
+  assert:
+    - By.CSS_SELECTOR
+    - "html.jd_retina body div#J_searchWrap.w div#J_crumbsBar.crumbs-bar div.crumbs-nav div.crumbs-nav-main.clearfix div.crumbs-nav-item strong.search-key"
+balck_list:
+  -
+    - By.XPATH
+    - xpath_address
+  -
+    - By.CSS
+    - css_address
